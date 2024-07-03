@@ -4,7 +4,7 @@
  }
 
 body{
-    background-color: rgb(249, 202, 209);
+    background-color: rgb(249, 232, 234);
 }
 
 header{
@@ -12,19 +12,248 @@ header{
     width: 90%;
     margin: 50px  auto;
     display: flex;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between;    
 }
+
 .btn{
     background-color: rgb(50, 115, 229);
     color: white;
-    padding: 8px 10px;
-    border-radius: 7px;
+    padding: 12px 20px;
+    border-radius: 10px;
     border: none;
 }
+
 .btn:hover{
     background-color: rgb(28, 28, 101);
     cursor: pointer;
     transition: 0.8s;
 }
+
+#highlight-section {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+#highlight-section > h2 {
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 2px 2px 8px #af3d3d;
+    margin-bottom: 25px;
+}
+
+#highlight-section > p {
+    margin: 0 auto;
+    width: 50%;
+    color:rgb(113, 79, 79);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#buy-now-button {
+    display: flex;
+    justify-content: center;
+}
+
+#cover-image-section {
+    width: 70%;
+    margin: 50px auto;
+}
+#cover-image-section img {
+    width: 100%;
+}
+
+#search-section {
+    width:70%;
+    margin: 50px auto;
+}
+
+#search-section > h2 {
+    text-align: center;
+    margin-bottom: 25px;
+
+} 
+
+#search-container {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(237, 237, 177);
+    display: flex;
+}
+
+#search-bar {
+    width: 70%;
+}
+
+#search-bar > input[ type="text"] {
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 60%;
+    background-color: rgb(237, 237, 177) ;
+}
+
+#search-button {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+
+#card-section {
+    width: 80%;
+    margin: 50px auto ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card {
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-image {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card-image:hover {
+    background-color: rgb(189, 171, 173);
+    transition: 0.8s;
+}
+
+.card-image img {
+    width: 100%;
+    height: 300px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.card-description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+    
+.card-price {
+    text-align:center;
+    font-weight: 600px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+    
+.card-button {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#spinner-section {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+     margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+    
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+    
+ul{
+    List-style: none;
+    }
+.footer {
+    background-color: #a0b5eb;
+     padding: 70px 0 ;
+}
+footer-col{
+    width: 25%;
+    padding: 0 15px;
+    }
+footer-col h4{
+    font-size: 18px;
+    color: #0a0808;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500; position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    Left:0;
+    bottom: 10px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #0b0a0a;
+    text-decoration: none;
+    font-weight: 300;
+    color: #100d0d;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #000000;
+    padding-left: 8px;
+}
+    
+.footer-col.social-links a{
+    display: inline-block;
+    text-align: center;
+    Line-height: 40px;    
+    height: 40px; width: 40px;
+    background-color: rgba(5, 5, 5, 0.2);
+    margin:0 10px 10px 0;
+    border-radius: 50%;
+    color: #0d0b0b;
+}
+
+.footer-col.social-links a:hover{
+    color: #24262b;
+    background-color: #0c0a0a;
+}
+.footer-col {
+    width: 50%;
+    
+margin-bottom: 30px;
+    
+ }
+    
+ 
+ 
+    
+     .footer-col {
+    
+     width: 100%;
+    
+    }
+
+#join{
+display: flex;
+justify-content: end;}
